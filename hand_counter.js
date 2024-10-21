@@ -29,7 +29,7 @@ function draw() {
   textSize(24);
   text(`Hands: ${handCount}`, 10, 30);
 
-  // Draw all the tracked hand points (optional)
+  // Draw all the tracked hand points
   for (let i = 0; i < hands.length; i++) {
     let hand = hands[i];
     for (let j = 0; j < hand.keypoints.length; j++) {
