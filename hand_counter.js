@@ -1,6 +1,7 @@
 let handPose;
 let video;
 let handCount = 0; // Variable to store the number of hands
+let hands = [];
 
 function preload() {
   // Load the handPose model
